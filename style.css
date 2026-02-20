@@ -102,3 +102,27 @@ main {
     background-color: #f8d7da;
     color: #721c24;
 }
+.steps-container,
+.ingredients-container {
+    display: none;
+    margin-top: 10px;
+}
+
+.steps-container.visible,
+.ingredients-container.visible {
+    display: block;
+}
+
+.step-level-1 {
+    margin-left: 20px;
+}
+
+.step-level-2 {
+    margin-left: 40px;
+}
+
+.recipe-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+}
